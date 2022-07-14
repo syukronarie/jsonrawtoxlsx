@@ -11,9 +11,9 @@ const jsontoxlsx = function (json) {
 jsontoxlsx.middleware = function (_, res, next) {
   res.xlsx = function (fileName, json) {
     const xlsx = jsontoxlsx(json);
-    res.setHeader('Content-Type', 'application/vnd.ms-excel');
+    res.setHeader('Content-Type', 'application/vnd.openxmlformats');
     res.setHeader('Content-disposition', 'attachment;filename=' + fileName + '.xlsx');
-    res.write(xlsx);
+    res.end(xlsx, 'binary');
   };
   next();
 };
