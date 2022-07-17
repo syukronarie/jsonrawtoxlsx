@@ -1,18 +1,23 @@
----
-displayName: jsonrawtoxlsx
-description: convert json raw to xlsx
-labels: ['json', 'xlsx', 'jsontoxls', 'middleware', 'convert json to xlsx']
----
+<h1 align="center">Welcome to jsonrawtoxlsx 👋</h1>
+<p align="center">
+  <img src="https://img.shields.io/npm/v/jsonrawtoxlsx.svg?orange=blue" />
+  <a href="https://www.npmjs.com/package/jsonrawtoxlsx">
+    <img alt="downloads" src="https://img.shields.io/npm/dm/jsonrawtoxlsx.svg?color=blue" target="_blank" />
+  </a>
+  <a href="https://github.com/syukronarie/jsonrawtoxlsx/blob/main/LICENSE">
+    <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-yellow.svg" target="_blank" />
+  </a>
+  <a href="https://codecov.io/gh/syukronarie/jsonrawtoxlsx">
+    <img src="https://codecov.io/gh/syukronarie/jsonrawtoxlsx/branch/main/graph/badge.svg" />
+  </a>
 
-# jsonrawtoxlsx
+</p>
 
-![codecov.io](https://codecov.io/github/syukronarie/jsonrawtoxlsx/coverage.svg?branch=main)
+## ✨ What is jsonrawtoxlsx?
 
-## What is jsonrawtoxlsx?
+`jsonrawtoxlsx` is library to convert json raw (`array` or `object`) into xlsx file
 
-jsonrawtoxlsx is library to convert json raw (`array` or `object`) into xlsx file.
-
-## Installation
+## ⚡️ Installation
 
 using npm
 
@@ -32,7 +37,7 @@ using pnpm
 pnpm add jsonrawtoxlsx
 ```
 
-## Usage
+## 🚀 Usage
 
 Use to save as file:
 
@@ -81,8 +86,27 @@ app.listen(PORT, function (err) {
 });
 ```
 
-## Contributing
+## 🤝 Contributing
 
 Anyone can contribute with [issues](https://github.com/syukronarie/jsonrawtoxlsx/issues) and [PRs](https://github.com/syukronarie/jsonrawtoxlsx/pulls). If you're submitting a pull request, always create a new branch to work your changes, and try squashing commits down if possible. Always test any new code and make sure `npm test` passes and `npm run test:cover` for code coverage is adequate before opening a PR.
+
+## Author
+
+👤 **Arie Syukron**
+
+- Github: [@syukronarie](https://github.com/syukronarie)
+
+## Show your support
+
+Please ⭐️ this repository if this project helped you!
+
+<a href="https://www.patreon.com/syukronarie">
+  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
+
+## 📝 License
+
+Copyright © 2019 [Arie Syukron](https://github.com/syukronarie).<br />
+This project is [MIT](https://github.com/syukronarie/jsonrawtoxlsx/blob/main/LICENSE) licensed.
 
 happy coding!
