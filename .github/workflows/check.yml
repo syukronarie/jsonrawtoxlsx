@@ -25,6 +25,8 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+      - uses: codecov/codecov-action@v3
+
       - name: Install deps
         run: |
           npm i -g husky
@@ -36,8 +38,6 @@ jobs:
       - name: Collecting coverage
         run: yarn test:cover
 
-    steps:
-      - uses: codecov/codecov-action@v3
       - name: Upload coverage reports to Codecov
         with:
           token: ${{secrets.CODECOV_TOKEN}}
