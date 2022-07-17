@@ -10,7 +10,9 @@
   <a href="https://codecov.io/gh/syukronarie/jsonrawtoxlsx">
     <img src="https://codecov.io/gh/syukronarie/jsonrawtoxlsx/branch/main/graph/badge.svg" />
   </a>
-
+  <a href="https://snyk.io/test/npm/jsonrawtoxlsx">
+    <img alt="snyk.io" src="https://snyk.io/test/npm/jsonrawtoxlsx/badge.svg" target="_blank" /> 
+  </a>
 </p>
 
 ## ✨ What is jsonrawtoxlsx?
