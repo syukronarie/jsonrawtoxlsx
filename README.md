@@ -43,15 +43,19 @@ Use to save as file:
 
 ```js
 const jsonrawtoxlsx = require('jsonrawtoxlsx');
-const json = {
-  name: 'John',
-  age: 27,
-  job: 'Software Engineer',
-};
+const fs = require('fs');
 
-const xlsx = jsonrawtoxlsx(json);
+const json = [
+  {
+    name: 'John',
+    age: 27,
+    job: 'Software Engineer',
+  },
+];
 
-fs.writeFileSync('example.xlsx', xlsx, 'binary');
+const buffer = jsonrawtoxlsx(json);
+
+fs.writeFileSync('example.xlsx', buffer, 'binary');
 ```
 
 Or use as express middleware. It adds a convenience `xlsx` method to the response object to immediately output an excel as download.
