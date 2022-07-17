@@ -6,8 +6,7 @@ labels: ['json', 'xlsx', 'jsontoxls', 'middleware', 'convert json to xlsx']
 
 # jsonrawtoxlsx
 
-[![codecov.io](https://codecov.io/github/syukronarie/jsonrawtoxlsx/coverage.svg?branch=main)]
-(https://codecov.io/github/syukronarie/jsonrawtoxlsx/?branch=main)
+![codecov.io](https://codecov.io/github/syukronarie/jsonrawtoxlsx/coverage.svg?branch=main)
 
 ## What is jsonrawtoxlsx?
 
