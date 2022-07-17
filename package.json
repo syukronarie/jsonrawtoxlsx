@@ -25,5 +25,25 @@
     "hooks": {
       "pre-commit": "yarn test && yarn test:cover"
     }
-  }
+  },
+  "keywords": [
+    "json",
+    "xlsx",
+    "excel",
+    "json",
+    "json-xlsx",
+    "xlsx-json",
+    "create-xlsx",
+    "create-excel",
+    "json-to-xlsx",
+    "jsonraw-to-xlsx",
+    "jsonrawtoxlsx",
+    "jsonrawtoexcel",
+    "json-to-excel",
+    "xlsx-to-json",
+    "xlsx-from-json",
+    "microsoft",
+    "microsoft-xlsx",
+    "microsoft-excel"
+  ]
 }
