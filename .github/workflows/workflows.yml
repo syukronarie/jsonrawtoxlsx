@@ -7,6 +7,7 @@ on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
     branches: ['main']
+
   pull_request:
     branches: ['main']
 
@@ -15,16 +16,14 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  jobs1:
+  test:
     runs-on: ubuntu-latest
     name: Run Unit Testing
 
     steps:
       - uses: actions/checkout@v3
       - name: Install deps
-        run: |
-          npm i -g husky
-          yarn
+        run: yarn
 
       - name: Run Test
         run: yarn test
