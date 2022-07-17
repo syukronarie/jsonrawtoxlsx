@@ -35,7 +35,7 @@ jobs:
 
     steps:
       - uses: codecov/codecov-action@v3
-      - name:
+      - name: Run test coverage and upload coverage reports
         run: yarn test:cover
         with:
           token: ${{secrets.CODECOV_TOKEN}}
