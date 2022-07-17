@@ -15,9 +15,9 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  test:
+  jobs1:
     runs-on: ubuntu-latest
-    name: Run Unit Testing, Collect and Upload Coverage Reports to Codecov
+    name: Run Unit Testing
 
     steps:
       - uses: actions/checkout@v3
@@ -28,3 +28,11 @@ jobs:
 
       - name: Run Test
         run: yarn test
+
+      - name: Run test coverage
+        run: yarn test:cover
+
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          token: ${{secrets.CODECOV_TOKEN}}
