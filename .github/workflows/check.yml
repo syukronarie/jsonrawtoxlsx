@@ -34,9 +34,9 @@ jobs:
     name: Collecting and upload coverage reports to Codecov
 
     steps:
-      - uses: codecov/codecov-action@v3
       - name: Run test coverage
         run: yarn test:cover
       - name: Upload coverage reports to Codecov
+      - uses: codecov/codecov-action@v3
         with:
           token: ${{secrets.CODECOV_TOKEN}}
