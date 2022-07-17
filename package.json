@@ -13,7 +13,8 @@
   "contributors": [],
   "scripts": {
     "test": "jest",
-    "test:cover": "jest --coverage"
+    "test:cover": "jest --coverage",
+    "prepare": "husky install"
   },
   "dependencies": {
     "jest": "^28.1.3",
