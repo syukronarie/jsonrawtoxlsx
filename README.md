@@ -6,6 +6,9 @@ labels: ['json', 'xlsx', 'jsontoxls', 'middleware', 'convert json to xlsx']
 
 # jsonrawtoxlsx
 
+[![codecov.io](https://codecov.io/github/syukronarie/jsonrawtoxlsx/coverage.svg?branch=main)]
+(https://codecov.io/github/syukronarie/jsonrawtoxlsx/?branch=main)
+
 ## What is jsonrawtoxlsx?
 
 jsonrawtoxlsx is library to convert json raw (`array` or `object`) into xlsx file.
