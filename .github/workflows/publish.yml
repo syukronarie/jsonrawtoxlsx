@@ -33,7 +33,6 @@ jobs:
           draft: false
           prerelease: false
 
-    steps:
       - name: NPM Publish
         uses: JS-DevTools/npm-publish@v1
         with:
