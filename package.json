@@ -1,6 +1,6 @@
 {
   "name": "jsonrawtoxlsx",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "convert raw json to xlsx",
   "main": "index.js",
   "license": "MIT",
