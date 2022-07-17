@@ -15,7 +15,7 @@
 
 ## ✨ What is jsonrawtoxlsx?
 
-`jsonrawtoxlsx` is library to convert json raw (`array` or `object`) into xlsx file
+`jsonrawtoxlsx` is library to convert json raw (`array`) into xlsx file
 
 ## ⚡️ Installation
 
