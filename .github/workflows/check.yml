@@ -31,13 +31,6 @@ jobs:
       - name: Run Test
         run: yarn test
 
-      - name: Collecting coverage
-        run: yarn test:cover
-
-      - name: Upload coverage reports to Codecov
-        with:
-          token: ${{secrets.CODECOV_TOKEN}}
-
   jobs2:
     name: Collecting coverage
 
