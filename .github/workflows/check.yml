@@ -15,13 +15,13 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
+  runs-on: ubuntu-latest
+
   jobs1:
-    runs-on: ubuntu-latest
     name: Run Unit Testing
 
     steps:
       - uses: actions/checkout@v3
-      - uses: codecov/codecov-action@v3
 
       - name: Install deps
         run: |
@@ -39,7 +39,6 @@ jobs:
           token: ${{secrets.CODECOV_TOKEN}}
 
   jobs2:
-    runs-on: ubuntu-latest
     name: Collecting coverage
 
     steps:
