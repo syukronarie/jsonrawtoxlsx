@@ -34,6 +34,7 @@ jobs:
     name: Collecting and upload coverage reports to Codecov
 
     steps:
+      - uses: actions/checkout@v3
       - name: Run test coverage
         run: yarn test:cover
       - name: Upload coverage reports to Codecov
