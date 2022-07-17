@@ -1,2 +1,1 @@
-yarn test
-yarn test:cover
+npm test
