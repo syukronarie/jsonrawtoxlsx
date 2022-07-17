@@ -26,7 +26,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
       - name: Install deps
-        run: yarn
+        run: |
+          yarn
+          npm i -g husky
 
       - name: Run Test
         run: yarn test
