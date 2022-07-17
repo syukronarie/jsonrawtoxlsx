@@ -35,8 +35,6 @@ jobs:
     name: Collecting coverage
 
     steps:
-      - name:
-
       - uses: codecov/codecov-action@v3
       - name: Collecting and upload coverage reports to Codecov
         run: yarn test:cover
