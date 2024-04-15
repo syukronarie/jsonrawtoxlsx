@@ -1,4 +1,4 @@
-const XLSX = require("xlsx");
+const XLSX = require("cc-xlsx");
 
 const jsontoxlsx = (json) => {
 	const workSheet = XLSX.utils.json_to_sheet(json);
