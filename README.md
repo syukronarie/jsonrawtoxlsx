@@ -112,7 +112,7 @@ Please ⭐️ this repository if this project helped you!
 
 ## 📝 License
 
-Copyright © 2022 [Arie Syukron](https://github.com/syukronarie).<br />
+Copyright © 2024 [Arie Syukron](https://github.com/syukronarie).<br />
 This project is [MIT](https://github.com/syukronarie/jsonrawtoxlsx/blob/main/LICENSE) licensed.
 
 happy coding!
